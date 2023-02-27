@@ -1,45 +1,52 @@
 .container {
-	margin: 0 auto;
-	text-align: center;
+    margin: 0 auto;
+    text-align: center;
 }
 
 h1 {
-	font-size: 48px;
-	margin-top: 50px;
+    font-size: 48px;
+    margin-top: 50px;
 }
 
-.game-board {
-	display: inline-block;
-	margin-top: 30px;
+.gameboard {
+    display: inline-block;
+    margin-top: 30px;
 }
 
 .row {
-	clear: both;
+    clear: both;
 }
 
 .cell {
-	float: left;
-	width: 100px;
-	height: 100px;
-	border: 2px solid black;
-	font-size: 72px;
-	text-align: center;
-	line-height: 100px;
-	cursor: pointer;
+    float: left;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    font-size: 72px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
 }
 
 .cell:hover {
-	background-color: #ddd;
+    background-color: #ddd;
 }
 
 #game-status {
-	margin-top: 30px;
-	font-size: 24px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
 }
 
 #restart-button {
-	margin-top: 30px;
-	font-size: 24px;
-    padding: 10px;
-	cursor: pointer;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #ddd;
+    cursor: pointer;
 }
+
+#restart-button:hover {
+    background-color: #bbb;
+  }
